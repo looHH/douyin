@@ -1,0 +1,21 @@
+{
+    "name": "loo/douyin",
+    "description": "miaoshu",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "looHH",
+            "email": "m13368092901@163.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">= 7.0.0"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Loo\\Douyin\\":"src/Loo/Douyin"
+        }
+    }
+}
